@@ -35,7 +35,7 @@ function normalizeShopItems(value) {
     }
 
     const item = { name: entry.name.trim() };
-    for (const field of ['description', 'category']) {
+    for (const field of ['description', 'type', 'category']) {
       if (entry[field] === undefined || entry[field] === null) continue;
       if (typeof entry[field] !== 'string') {
         throw new CatalogValidationError(`Item ${index + 1} has an invalid ${field}.`);
@@ -43,18 +43,20 @@ function normalizeShopItems(value) {
       item[field] = entry[field];
     }
 
-    if (entry.price !== undefined && entry.price !== null) {
-      if (typeof entry.price !== 'number' || !Number.isFinite(entry.price) || entry.price < 0) {
-        throw new CatalogValidationError(`Item ${index + 1} has an invalid price.`);
+    for (const field of ['price', 'giftPrice', 'nitroPrice', 'loginPrice']) {
+      if (entry[field] === undefined || entry[field] === null) continue;
+      if (typeof entry[field] !== 'number' || !Number.isFinite(entry[field]) || entry[field] < 0) {
+        throw new CatalogValidationError(`Item ${index + 1} has an invalid ${field}.`);
       }
-      item.price = entry.price;
+      item[field] = entry[field];
     }
 
-    if (entry.currency !== undefined && entry.currency !== null) {
-      if (typeof entry.currency !== 'string' || !/^[A-Za-z]{3}$/.test(entry.currency)) {
-        throw new CatalogValidationError(`Item ${index + 1} has an invalid currency.`);
+    for (const field of ['currency', 'giftCurrency', 'nitroCurrency', 'loginCurrency']) {
+      if (entry[field] === undefined || entry[field] === null) continue;
+      if (typeof entry[field] !== 'string' || !/^[A-Za-z]{3}$/.test(entry[field])) {
+        throw new CatalogValidationError(`Item ${index + 1} has an invalid ${field}.`);
       }
-      item.currency = entry.currency.toUpperCase();
+      item[field] = entry[field].toUpperCase();
     }
 
     if (entry.orbsPrice !== undefined && entry.orbsPrice !== null) {

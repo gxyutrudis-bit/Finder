@@ -34,17 +34,24 @@ test('builds unaccented Components V2 containers with all shop result details', 
       {
         name: 'Frame effect',
         description: 'A glowing border',
+        type: 'Profile Frame',
         category: 'frame effect',
-        price: 4.99,
-        currency: 'EUR',
-        orbsPrice: 1200,
+        giftPrice: 5.99,
+        nitroPrice: 4.99,
+        orbsPrice: 4100,
+        price: 90,
+        currency: 'PHP',
+        loginPrice: 65,
+        loginCurrency: 'PHP',
         url: 'https://example.com/item',
         imageUrl: 'https://example.com/item.jpg',
       },
     ]),
   );
   const container = payload.components[0].toJSON();
-  const text = container.components
+  const sections = container.components.filter((component) => component.type === 9);
+  const text = sections
+    .flatMap((section) => section.components)
     .filter((component) => component.type === 10)
     .map((component) => component.content)
     .join('\n');
@@ -52,10 +59,19 @@ test('builds unaccented Components V2 containers with all shop result details', 
   assert.equal(payload.flags, MessageFlags.IsComponentsV2);
   assert.equal(container.type, 17);
   assert.equal(container.accent_color, undefined);
-  assert.match(text, /Type:\*\* Frame effect/);
-  assert.match(text, /Price:\*\* €4\.99/);
-  assert.match(text, /Orbs price:\*\* 1,200 Orbs/);
-  assert.ok(container.components.some((component) => component.type === 12));
+  assert.match(text, /## Frame effect\nProfile Frame \| Frame effect/);
+  assert.match(text, /## Purchase options/);
+  assert.match(text, /\*\*Gift\*\* `\$5\.99 USD`/);
+  assert.match(text, /\*\*Nitro\*\* `\$4\.99 USD`/);
+  assert.match(text, /\*\*Orbs\*\* `4,100 Orbs` \*\(self only\)\*/);
+  assert.match(text, /\*\*Shop price\*\* `₱90\.00`/);
+  assert.match(text, /\*\*Login price\*\* `₱65\.00`/);
+  assert.equal(sections[0].accessory.type, 11);
+  assert.equal(sections[0].accessory.media.url, 'https://example.com/item.jpg');
+  assert.equal(sections[1].accessory.type, 2);
+  assert.equal(sections[1].accessory.label, 'View item');
+  assert.equal(sections[1].accessory.url, 'https://example.com/item');
+  assert.equal(container.components.some((component) => component.type === 10), false);
 
   const notice = toComponentsV2Payload(createNoticeContainer('No matches'));
   assert.equal(notice.components[0].toJSON().type, 17);

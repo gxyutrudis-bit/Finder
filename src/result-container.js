@@ -1,10 +1,12 @@
 const {
+  ButtonBuilder,
+  ButtonStyle,
   ContainerBuilder,
-  MediaGalleryBuilder,
-  MediaGalleryItemBuilder,
   MessageFlags,
+  SectionBuilder,
   SeparatorBuilder,
   TextDisplayBuilder,
+  ThumbnailBuilder,
 } = require('discord.js');
 const { formatPrice } = require('./format-price');
 const { formatCategory, formatOrbsPrice } = require('./format-item-details');
@@ -15,10 +17,8 @@ function createNoticeContainer(message) {
   );
 }
 
-function createResultsContainer(title, items) {
-  const container = new ContainerBuilder().addTextDisplayComponents(
-    new TextDisplayBuilder().setContent(`# ${title.slice(0, 500)}`),
-  );
+function createResultsContainer(_title, items) {
+  const container = new ContainerBuilder();
 
   items.slice(0, 5).forEach((item, index) => {
     if (index > 0) {
@@ -26,32 +26,63 @@ function createResultsContainer(title, items) {
     }
 
     const itemName = String(item.name ?? 'Shop item').slice(0, 256);
-    const name = item.url ? `[${itemName}](${item.url})` : itemName;
-    const category = formatCategory(item.category);
-    const orbsPrice = formatOrbsPrice(item.orbsPrice);
-    const details = [
-      `## ${name}`,
+    const category = formatCategory(item.category) ?? item.category;
+    const metadata = [item.type, category].filter(Boolean).join(' | ');
+    const description = [
+      `## ${itemName}`,
+      metadata ? String(metadata).slice(0, 100) : null,
       item.description ? String(item.description).slice(0, 400) : null,
-      category ? `**Type:** ${category}` : null,
-      `**Price:** ${formatPrice(item)}`,
-      orbsPrice ? `**Orbs price:** ${orbsPrice}` : null,
     ]
       .filter(Boolean)
       .join('\n');
 
-    container.addTextDisplayComponents(
-      new TextDisplayBuilder().setContent(details.slice(0, 1000)),
+    const itemSection = new SectionBuilder().addTextDisplayComponents(
+      new TextDisplayBuilder().setContent(description.slice(0, 1000)),
     );
-
     if (isHttpsUrl(item.imageUrl)) {
-      container.addMediaGalleryComponents(
-        new MediaGalleryBuilder().addItems(
-          new MediaGalleryItemBuilder()
-            .setURL(item.imageUrl)
-            .setDescription(itemName.slice(0, 1024)),
-        ),
+      itemSection.setThumbnailAccessory(
+        new ThumbnailBuilder()
+          .setURL(item.imageUrl)
+          .setDescription(itemName.slice(0, 1024)),
       );
     }
+    container.addSectionComponents(itemSection);
+    container.addSeparatorComponents(new SeparatorBuilder());
+
+    const purchaseOptions = ['## Purchase options'];
+    if (isValidPrice(item.giftPrice)) {
+      purchaseOptions.push(
+        `**Gift** \`${formatPrice({ price: item.giftPrice, currency: item.giftCurrency ?? 'USD' })} ${item.giftCurrency ?? 'USD'}\``,
+      );
+    }
+    if (isValidPrice(item.nitroPrice)) {
+      purchaseOptions.push(
+        `**Nitro** \`${formatPrice({ price: item.nitroPrice, currency: item.nitroCurrency ?? 'USD' })} ${item.nitroCurrency ?? 'USD'}\``,
+      );
+    }
+    const orbsPrice = formatOrbsPrice(item.orbsPrice);
+    if (orbsPrice) purchaseOptions.push(`**Orbs** \`${orbsPrice}\` *(self only)*`);
+    if (isValidPrice(item.price)) {
+      purchaseOptions.push(`**Shop price** \`${formatPrice(item)}\``);
+    }
+    if (isValidPrice(item.loginPrice)) {
+      purchaseOptions.push(
+        `**Login price** \`${formatPrice({ price: item.loginPrice, currency: item.loginCurrency ?? item.currency ?? 'USD' })}\``,
+      );
+    }
+
+    const purchaseSection = new SectionBuilder().addTextDisplayComponents(
+      new TextDisplayBuilder().setContent(purchaseOptions.join('\n').slice(0, 1000)),
+    );
+    if (isHttpsUrl(item.url)) {
+      purchaseSection.setButtonAccessory(
+        new ButtonBuilder()
+          .setStyle(ButtonStyle.Link)
+          .setLabel('View item')
+          .setURL(item.url),
+      );
+    }
+    container.addSectionComponents(purchaseSection);
   });
 
   return container;
@@ -71,6 +102,10 @@ function isHttpsUrl(value) {
   } catch {
     return false;
   }
+}
+
+function isValidPrice(value) {
+  return typeof value === 'number' && Number.isFinite(value) && value >= 0;
 }
 
 module.exports = {

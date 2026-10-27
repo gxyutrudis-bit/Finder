@@ -20,10 +20,16 @@ test('normalizes valid shop items and rejects unsafe catalog entries', () => {
       {
         name: 'Frame',
         description: 'Decoration',
+        type: 'Profile Frame',
         category: 'frame effect',
         price: 4.99,
         currency: 'eur',
+        giftPrice: 5.99,
+        giftCurrency: 'usd',
+        nitroPrice: 4.99,
         orbsPrice: 1200,
+        loginPrice: 3.99,
+        loginCurrency: 'php',
         url: 'https://example.com/frame',
         imageUrl: 'https://example.com/frame.png',
         ignored: 'field',
@@ -33,10 +39,16 @@ test('normalizes valid shop items and rejects unsafe catalog entries', () => {
       {
         name: 'Frame',
         description: 'Decoration',
+        type: 'Profile Frame',
         category: 'frame effect',
         price: 4.99,
         currency: 'EUR',
+        giftPrice: 5.99,
+        giftCurrency: 'USD',
+        nitroPrice: 4.99,
         orbsPrice: 1200,
+        loginPrice: 3.99,
+        loginCurrency: 'PHP',
         url: 'https://example.com/frame',
         imageUrl: 'https://example.com/frame.png',
       },
@@ -44,6 +56,7 @@ test('normalizes valid shop items and rejects unsafe catalog entries', () => {
   );
   assert.throws(() => normalizeShopItems([]), /non-empty array/);
   assert.throws(() => normalizeShopItems([{ name: ' ' }]), /non-empty name/);
+  assert.throws(() => normalizeShopItems([{ name: 'Frame', giftPrice: -1 }]), /invalid giftPrice/);
   assert.throws(
     () => normalizeShopItems([{ name: 'Frame', imageUrl: 'http://example.com/frame.png' }]),
     /must use HTTPS/,

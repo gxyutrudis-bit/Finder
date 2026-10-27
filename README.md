@@ -21,17 +21,23 @@ Use `/syncshop shop_json` with a `.json` attachment to replace the shared catalo
 
 Balances are stored per server and user in `data/balances.json`. `BALANCE_CURRENCY` sets the single currency used for balances and defaults to `PHP`; set it to `EUR` for euros. Balance commands only maintain the balance ledger; they do not complete shop purchases or convert between currencies. Run `npm test` to test balance storage and spending.
 
-The catalog is stored locally in `data/shop-items.json`; this project does not fetch Discord's live Shop catalog. `/find` searches names and descriptions. `/findimage` compares an uploaded image against catalog images and posts matching results publicly. Add a numeric `price` and optional ISO `currency` code to show each item's price; currency defaults to `USD`. For Philippine pesos use `PHP`; for euros use `EUR`. Set `category` to `avatar decoration`, `profile effect`, `frame effect`, or `nameplate` to show the item type. Set an integer `orbsPrice` only when the item is available in the Orbs Shop; it appears last in the results. Add HTTPS image URLs to each catalog item; image search skips items without an `imageUrl`.
+The catalog is stored locally in `data/shop-items.json`; this project does not fetch Discord's live Shop catalog. `/find` searches names and descriptions. `/findimage` compares an uploaded image against catalog images and posts matching results publicly. Results show the item name, optional `type` and `category`, description, thumbnail, and available purchase options. Set `price` for the Shop price and optional ISO `currency` code (defaults to `USD`); `loginPrice` and optional `loginCurrency` add a Login price. `giftPrice` and `nitroPrice` add Gift and Nitro prices, with optional `giftCurrency` and `nitroCurrency` codes (both default to `USD`). Set an integer `orbsPrice` only when the item is available in the Orbs Shop; it is marked self-only. Set `category` to `avatar decoration`, `profile effect`, `frame effect`, or `nameplate` for a normalized category label. Add HTTPS `url` and `imageUrl` values to show the View item button and thumbnail; image search skips items without an `imageUrl`.
 
 ```json
 [
 	{
 		"name": "Example item",
 		"description": "A short description",
-		"category": "avatar decoration",
+		"type": "Profile Frame",
+		"category": "Frames",
+		"giftPrice": 5.99,
+		"giftCurrency": "USD",
+		"nitroPrice": 4.99,
+		"orbsPrice": 4100,
 		"price": 4.99,
 		"currency": "PHP",
-		"orbsPrice": 1200,
+		"loginPrice": 65,
+		"loginCurrency": "PHP",
 		"url": "https://example.com/item",
 		"imageUrl": "https://example.com/item.jpg"
 	},
