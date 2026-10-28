@@ -736,5 +736,464 @@
 		"loginPrice": 80,
 		"loginCurrency": "PHP",
 		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_29b87e18aa419c48c2da8d364bbe642e.png"
+	},
+	{
+		"name": "Jack Skellington",
+		"category": "Avatar Decoration",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559671447574544485"
+	},
+	{
+		"name": "Pumpkin King",
+		"category": "Profile Effects",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559671447574544485"
+	},
+	{
+		"name": "Jack Skellington",
+		"category": "Nametag",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559671447574544485"
+	},
+	{
+		"name": "Sally's Potion",
+		"category": "Avatar Decoration",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559635382172258366"
+	},
+	{
+		"name": "Sally",
+		"category": "Nametag",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559635382172258366"
+	},
+	{
+		"name": "Zero",
+		"category": "Avatar Decoration",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559671735320711248"
+	},
+	{
+		"name": "Zero Lights The Night",
+		"category": "Nametag",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559671735320711248"
+	},
+	{
+		"name": "Ooogie Boogie",
+		"category": "Avatar Decoration",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559672894622007336"
+	},
+	{
+		"name": "Halloween Forever",
+		"category": "Profile Effects",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559672894622007336"
+	},
+	{
+		"name": "Venom",
+		"category": "Avatar Decoration",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1481392895486459945"
+	},
+	{
+		"name": "Venom",
+		"category": "Profile Effects",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1481392895486459945"
+	},
+	{
+		"name": "Venom",
+		"category": "Nametag",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1481392895486459945"
+	},
+	{
+		"name": "Spider-Man",
+		"category": "Avatar Decoration",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1481392199261487187"
+	},
+	{
+		"name": "Spider-Man",
+		"category": "Profile Effects",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1536493617076502628"
+	},
+	{
+		"name": "Spider-Man",
+		"category": "Nametag",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1481392199261487187"
+	},
+	{
+		"name": "Spider-Man Web",
+		"category": "Profile Effects",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1536493617076502628"
+	},
+	{
+		"name": "Spiderman Vs Venom",
+		"category": "Nametag",
+		"price": 125,
+		"currency": "PHP",
+		"loginPrice": 105,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/1481390594810183700/static"
+	},
+	{
+		"name": "The Magician",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1461062060019421275"
+	},
+	{
+		"name": "The Magician",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1461062060019421275"
+	},
+	{
+		"name": "Manifesting Magician",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1461062060019421275"
+	},
+	{
+		"name": "Death",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1461062060040261705"
+	},
+	{
+		"name": "The Tower",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1461062060040261705"
+	},
+	{
+		"name": "Tower Strike",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1461062060040261705"
+	},
+	{
+		"name": "The Devil",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_201b4c787a40613499928f068f0917f6.png?size=320&passthrough=false"
+	},
+	{
+		"name": "The Sun",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_b537dd607dcd467f778f3ab352e26856.png?size=320&passthrough=false"
+	},
+	{
+		"name": "The Fool",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_aa54739e05fcfa78e9f2649e6bbffa38.png?size=320&passthrough=false"
+	},
+	{
+		"name": "The Temperance",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_ac34c6cf7a245568910302e34eec7fe2.png?size=320&passthrough=false"
+	},
+	{
+		"name": "The Hermit",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/assets/content/ae3bd96004414841378891581a3aa6fcf5b67b03d6922e17904dcbd14a39251c"
+	},
+	{
+		"name": "Sunset Radiance",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/1461062060229132369/static"
+	},
+	{
+		"name": "Hermit Lanterns",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/1461062060254298326/static"
+	},
+	{
+		"name": "Aries",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090439004170"
+	},
+	{
+		"name": "Aries",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090439004170"
+	},
+	{
+		"name": "Aries",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090439004170"
+	},
+	{
+		"name": "Taurus",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090455908552"
+	},
+	{
+		"name": "Taurus",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090455908552"
+	},
+	{
+		"name": "Taurus",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090455908552"
+	},
+	{
+		"name": "Gemini",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090472554566"
+	},
+	{
+		"name": "Gemini",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090472554566"
+	},
+	{
+		"name": "Gemini",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090472554566"
+	},
+	{
+		"name": "Leo",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090506240122"
+	},
+	{
+		"name": "Leo",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090506240122"
+	},
+	{
+		"name": "Leo",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090506240122"
+	},
+	{
+		"name": "Cancer",
+		"category": "Avatar Decoration",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090485141645"
+	},
+	{
+		"name": "Cancer",
+		"category": "Profile Effects",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090485141645"
+	},
+	{
+		"name": "Cancer",
+		"category": "Nametag",
+		"price": 93,
+		"currency": "PHP",
+		"loginPrice": 80,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1447654090485141645"
+	},
+	{
+		"name": "Light Cycles",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1437881613928366204"
+	},
+	{
+		"name": "Light Cycles",
+		"category": "Profile Effects",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1437881613928366204"
+	},
+	{
+		"name": "Light Wall",
+		"category": "Nametag",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1437881613928366204"
+	},
+	{
+		"name": "Encom Grid",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1437881613949079632"
+	},
+	{
+		"name": "Encom Grid",
+		"category": "Profile Effects",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1437881613949079632"
+	},
+	{
+		"name": "Encom Grid",
+		"category": "Nametag",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1437881613949079632"
 	}
 ]
