@@ -41,7 +41,8 @@ test('builds unaccented Components V2 containers with all shop result details', 
         orbsPrice: 4100,
         price: 90,
         currency: 'PHP',
-        loginPrice: 65,
+        loginPrice: 260,
+        loginPriceMax: 350,
         loginCurrency: 'PHP',
         url: 'https://example.com/item',
         imageUrl: 'https://example.com/item.jpg',
@@ -65,7 +66,7 @@ test('builds unaccented Components V2 containers with all shop result details', 
   assert.match(text, /\*\*Nitro\*\* `\$4\.99 USD`/);
   assert.match(text, /\*\*Orbs\*\* `4,100 Orbs` \*\(self only\)\*/);
   assert.match(text, /\*\*Shop price\*\* `₱90\.00`/);
-  assert.match(text, /\*\*Login price\*\* `₱65\.00`/);
+  assert.match(text, /\*\*Login price\*\* `₱260\.00 - ₱350\.00`/);
   assert.equal(sections[0].accessory.type, 11);
   assert.equal(sections[0].accessory.media.url, 'https://example.com/item.jpg');
   assert.equal(sections[1].accessory.type, 2);

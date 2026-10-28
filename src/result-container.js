@@ -66,8 +66,18 @@ function createResultsContainer(_title, items) {
       purchaseOptions.push(`**Shop price** \`${formatPrice(item)}\``);
     }
     if (isValidPrice(item.loginPrice)) {
+      const loginPrice = formatPrice({
+        price: item.loginPrice,
+        currency: item.loginCurrency ?? item.currency ?? 'USD',
+      });
+      const loginPriceMax = isValidPrice(item.loginPriceMax)
+        ? ` - ${formatPrice({
+            price: item.loginPriceMax,
+            currency: item.loginCurrency ?? item.currency ?? 'USD',
+          })}`
+        : '';
       purchaseOptions.push(
-        `**Login price** \`${formatPrice({ price: item.loginPrice, currency: item.loginCurrency ?? item.currency ?? 'USD' })}\``,
+        `**Login price** \`${loginPrice}${loginPriceMax}\``,
       );
     }
 

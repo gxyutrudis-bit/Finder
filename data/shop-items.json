@@ -1,5 +1,368 @@
 [
 	{
+		"name": "Izuku Midoriya",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1373015260306604122"
+	},
+	{
+		"name": "Full Cowling",
+		"category": "Profile Effects",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1373015260306604122"
+	},
+	{
+		"name": "Katsuki Bakogo",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1373015260331511838"
+	},
+	{
+		"name": "Cluster",
+		"category": "Profile Effects",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1373015260331511838"
+	},
+	{
+		"name": "Tomura Shigaraki",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1373015260344225833"
+	},
+	{
+		"name": "League Of Villains",
+		"category": "Profile Effects",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1373015260344225833"
+	},
+	{
+		"name": "Ochaco Uraraka",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_f02912fdcaf063325450b0122d8e4e38.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Shoto Todoroki",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_9e815a5c371894d0ce5a15fba9cf999a.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Endeavor",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_52d234402be84e0f880acaca2ab25c06.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Hawks",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_52fd31296f501c7875bd09b0c379c2dd.png?size=320&passthrough=false"
+	},
+	{
+		"name": "All Might",
+		"category": "Avatar Decoration",
+		"price": 109,
+		"currency": "PHP",
+		"loginPrice": 90,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_cdf52fcac4fec25c759dd493a6f67b94.png?size=320&passthrough=false"
+	},
+	{
+		"name": "The Anomaly",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1306752744228524052"
+	},
+	{
+		"name": "Arcane Epiphany",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1306752744228524052"
+	},
+	{
+		"name": "The Monster You Created",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1303490165045727317"
+	},
+	{
+		"name": "Jinx and Pow-Pow",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1303490165045727317"
+	},
+	{
+		"name": "The Mark",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_27f77b8147892bc271658ba19e4ecc06.png?size=320&passthrough=false"
+	},
+	{
+		"name": "A Hint Of Clove",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_98555e40cc6802bd3a4fed906af1d992.png?size=320&passthrough=false"
+	},
+	{
+		"name": "The Atlas Gaunlets",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_cc1aab519baf2ab8cfa0151bed5263df.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Flame Chompers",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_8396e9830e3e288cd3aaa6daf18b605a.png?size=320&passthrough=false"
+	},
+	{
+		"name": "FISHBONES!",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_84a67b33ef5b75e17f858a95648c973f.png?size=320&passthrough=false"
+	},
+	{
+		"name": "The Hexcore",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_dbb1abd90367c1a31a94f7e162f3a3c3.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Powered by Shimmer",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_609fb5c17a4d5ff2e2bec1a1931a9caa.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Ekko's Aeroglider Stunts",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/assets/content/ae2ea55dd27985640025b5670c274c2f77a375156f4bd82663f7043f8eabad8c"
+	},
+	{
+		"name": "Paint the Town Blue",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginPriceMax": 350,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/assets/content/6d1e87ddafcdda97fef99f1b1e41744e83a9b7d2506c066ffc11e78163bc79a2"
+	},
+	{
+		"name": "Ryu",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1285465420979245087"
+	},
+	{
+		"name": "Chun-Li",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_bba133b88b21e1b4a36637335536c3a8.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Ken",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_f524554b7f42a214d15c226c344a5357.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Guile",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_993ac691660d3d67b500d995e121b220.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Cammy",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_c899a523b33e54210c0d5577a35907b4.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Juri",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_dcfe10bac4a782ffb5eefef7a8003115.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Yoru Dimensional Drift",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1267521289330102344"
+	},
+	{
+		"name": "Yoru Dimensional Rip",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1267521289330102344"
+	},
+	{
+		"name": "Frag Out",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1267521289355268154"
+	},
+	{
+		"name": "Ace",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1267521289355268154"
+	},
+	{
+		"name": "Classic Street Fighter",
+		"category": "Profile Effects",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1285465420979245087"
+	},
+	{
+		"name": "Akuma",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1285465420995756065"
+	},
+	{
+		"name": "Akuma's Wrath",
+		"category": "Profile Effects",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1285465420995756065"
+	},
+	{
+		"name": "M. Bison",
+		"category": "Avatar Decoration",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1285465421016862730"
+	},
+	{
+		"name": "M. Bison Return",
+		"category": "Profile Effects",
+		"price": 191,
+		"currency": "PHP",
+		"loginPrice": 220,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1285465421016862730"
+	},
+	{
 		"name": "Dark Moon",
 		"category": "Avatar Decorations",
 		"price": 125,
@@ -790,6 +1153,69 @@
 		"loginPrice": 105,
 		"loginCurrency": "PHP",
 		"imageUrl": "https://cdn.discordapp.com/media/v1/collectibles-shop/bundle-fg-static/1559671735320711248"
+	},
+	{
+		"name": "Viper Poison Cloud",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_62cd9d7c0031a7c1eb5ad5cc96992189.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Reyna's Leer",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_a87e3efa4de2956331831681231ce63b.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Omen's Cowl",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_c45abe8c7585fdb41b8d8d4d666f1588.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Cypher Neural Theft",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_b1efe77f379c6c9c6e47e6b6299d5a7d.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Blade Storm",
+		"category": "Avatar Decoration",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/avatar-decoration-presets/a_904b1989077c91fca1168d39bfcaa0a4.png?size=320&passthrough=false"
+	},
+	{
+		"name": "Clove's Ruse",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/assets/content/45f905ada562518a5d13f733112ce4b8d51799cb9a42a7b3bc03e5178357e43d"
+	},
+	{
+		"name": "The Immortal Clove",
+		"category": "Profile Effects",
+		"price": 210,
+		"currency": "PHP",
+		"loginPrice": 260,
+		"loginCurrency": "PHP",
+		"imageUrl": "https://cdn.discordapp.com/assets/content/e00adda23450aabeebca0cc12f0ad9e6887ba78572936d0b3fb963fd1a4be7fc"
 	},
 	{
 		"name": "Zero Lights The Night",

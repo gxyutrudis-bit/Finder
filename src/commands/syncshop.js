@@ -43,12 +43,18 @@ function normalizeShopItems(value) {
       item[field] = entry[field];
     }
 
-    for (const field of ['price', 'giftPrice', 'nitroPrice', 'loginPrice']) {
+    for (const field of ['price', 'giftPrice', 'nitroPrice', 'loginPrice', 'loginPriceMax']) {
       if (entry[field] === undefined || entry[field] === null) continue;
       if (typeof entry[field] !== 'number' || !Number.isFinite(entry[field]) || entry[field] < 0) {
         throw new CatalogValidationError(`Item ${index + 1} has an invalid ${field}.`);
       }
       item[field] = entry[field];
+    }
+    if (
+      item.loginPriceMax !== undefined &&
+      (item.loginPrice === undefined || item.loginPriceMax < item.loginPrice)
+    ) {
+      throw new CatalogValidationError(`Item ${index + 1} has an invalid loginPriceMax.`);
     }
 
     for (const field of ['currency', 'giftCurrency', 'nitroCurrency', 'loginCurrency']) {
