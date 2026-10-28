@@ -78,6 +78,20 @@ test('builds unaccented Components V2 containers with all shop result details', 
   assert.equal(notice.components[0].toJSON().type, 17);
 });
 
+test('builds results without optional image and item URL accessories', () => {
+  const container = createResultsContainer('Shop results', [
+    { name: 'Item without links', price: 90, currency: 'PHP' },
+  ]).toJSON();
+  const text = container.components
+    .filter((component) => component.type === 10)
+    .map((component) => component.content)
+    .join('\n');
+
+  assert.match(text, /## Item without links/);
+  assert.match(text, /## Purchase options/);
+  assert.equal(container.components.some((component) => component.type === 9), false);
+});
+
 test('registers a private pricelist command with the provided PHP tiers', async () => {
   const command = priceListCommand.data.toJSON();
   assert.equal(command.name, 'pricelist');

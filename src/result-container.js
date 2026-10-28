@@ -36,17 +36,21 @@ function createResultsContainer(_title, items) {
       .filter(Boolean)
       .join('\n');
 
-    const itemSection = new SectionBuilder().addTextDisplayComponents(
-      new TextDisplayBuilder().setContent(description.slice(0, 1000)),
-    );
     if (isHttpsUrl(item.imageUrl)) {
+      const itemSection = new SectionBuilder().addTextDisplayComponents(
+        new TextDisplayBuilder().setContent(description.slice(0, 1000)),
+      );
       itemSection.setThumbnailAccessory(
         new ThumbnailBuilder()
           .setURL(item.imageUrl)
           .setDescription(itemName.slice(0, 1024)),
       );
+      container.addSectionComponents(itemSection);
+    } else {
+      container.addTextDisplayComponents(
+        new TextDisplayBuilder().setContent(description.slice(0, 1000)),
+      );
     }
-    container.addSectionComponents(itemSection);
     container.addSeparatorComponents(new SeparatorBuilder());
 
     const purchaseOptions = ['## Purchase options'];
@@ -81,18 +85,22 @@ function createResultsContainer(_title, items) {
       );
     }
 
-    const purchaseSection = new SectionBuilder().addTextDisplayComponents(
-      new TextDisplayBuilder().setContent(purchaseOptions.join('\n').slice(0, 1000)),
-    );
     if (isHttpsUrl(item.url)) {
+      const purchaseSection = new SectionBuilder().addTextDisplayComponents(
+        new TextDisplayBuilder().setContent(purchaseOptions.join('\n').slice(0, 1000)),
+      );
       purchaseSection.setButtonAccessory(
         new ButtonBuilder()
           .setStyle(ButtonStyle.Link)
           .setLabel('View item')
           .setURL(item.url),
       );
+      container.addSectionComponents(purchaseSection);
+    } else {
+      container.addTextDisplayComponents(
+        new TextDisplayBuilder().setContent(purchaseOptions.join('\n').slice(0, 1000)),
+      );
     }
-    container.addSectionComponents(purchaseSection);
   });
 
   return container;
